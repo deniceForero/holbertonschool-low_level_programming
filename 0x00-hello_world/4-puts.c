@@ -6,7 +6,7 @@
 #include <stdio.h>
 /**
  * main - Print whit function puts
- *Return 0
+ * Return: 0
 */
 
 int main(void)
