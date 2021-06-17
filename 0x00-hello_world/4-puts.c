@@ -4,10 +4,9 @@
 */
 
 #include <stdio.h>
-
+/* Print whit function puts*/
 int main(void)
 {
-/* Print whit function puts*/
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
