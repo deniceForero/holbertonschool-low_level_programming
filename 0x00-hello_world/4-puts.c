@@ -4,7 +4,9 @@
 */
 
 #include <stdio.h>
-/*main - Print whit function puts*/
+/** main - Print whit function puts
+ *Return 0
+*/
 
 int main(void)
 {
