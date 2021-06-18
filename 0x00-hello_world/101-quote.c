@@ -6,11 +6,13 @@
 #include <stdio.h>
 /**
  * main - Print whit function putchar
- * Return: 0
+ * Return: 1
  */
 
 int main(void)
 {
-putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+
+char frase [] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
+putchar(frase);
 return (1);
 }
