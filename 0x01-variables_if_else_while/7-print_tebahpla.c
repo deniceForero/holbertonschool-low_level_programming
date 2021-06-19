@@ -14,7 +14,7 @@
 int main(void)
   
 {
-caracter = 122;
+int caracter = 122;
 while (caracter >= 97)
 {
 putchar(caracter);
