@@ -1,5 +1,5 @@
 /*
-*Print the numbers 
+*Print the numbers
 *6-printnumbers.c
 */
 
@@ -15,10 +15,11 @@ int main(void)
 {
 /*declare variables for number*/
 int num = 9;
-while (num <= 0)
+int aux = 0;
+while (aux <= num)
 {
 putchar(num);
-num++;
+aux++;
 }
 putchar('\n');
 return (0);
