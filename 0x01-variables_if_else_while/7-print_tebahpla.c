@@ -13,6 +13,7 @@
 */
 
 int main(void)
+putchar(caracter);  
 {
 int caracter = 122;
 while (caracter >= 97)
