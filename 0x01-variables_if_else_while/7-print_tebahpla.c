@@ -3,7 +3,7 @@
 *7-print_tebahpla.c 
 */
 
-#include <stdi.h>
+#include <stdio.h>
 /**
 * main -print The Last Digit
 * return: 0
