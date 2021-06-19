@@ -15,8 +15,9 @@ int main(void)
 {
 /*Declarar variables para a */
 int caracter = 97;
-while (caracter <= 122 && caracter != 101 && caracter != 113)
+while (caracter <= 122)
 {
+if (caracter !=101 && caracter != 113)
 putchar(caracter);
 caracter++;
 }
