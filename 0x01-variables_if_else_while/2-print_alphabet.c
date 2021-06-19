@@ -13,13 +13,13 @@
 
 int main(void)
 {
-  /*Declarar variables para a*/
-  int caracter = 97;
-  while (caracter <= 122)
-    {
-      putchar(caracter);
-      caracter--;
-    }
-  putchar('\n');
-  return (0);
+/*Declarar variables para a*/
+int caracter = 97;
+while (caracter <= 122)
+{
+putchar(caracter);
+caracter++;
+}
+putchar('\n');
+return (0);
 }
