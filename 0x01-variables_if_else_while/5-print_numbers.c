@@ -14,12 +14,13 @@
 int main(void)
 {
 /*Declarar variables para numero */
-int numero = 10;
+int numero = 9;
 int aux = 0;
 while (aux <= numero)
 {
-printf("%d\n", aux);
+printf("%d", aux);
 aux++;
 }
+printf("\n");
 return (0);
 }
