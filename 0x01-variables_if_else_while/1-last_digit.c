@@ -7,9 +7,9 @@
 #include <stdio.h>
 
 /**
- * main - Print the last digit 
- * Return: 0
- */
+* main - Print the last digit
+* Return: 0
+*/
 
 int main(void)
 {
