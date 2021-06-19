@@ -1,8 +1,7 @@
 /*
-*Print the last digit
-*7-print_tebahpla.c
+ *Print the last digit
+ *7-print_tebahpla.c
 */
-
 
 #include <stdio.h>
 
@@ -13,9 +12,9 @@
 */
 
 int main(void)
-putchar(caracter);  
+  
 {
-int caracter = 122;
+caracter = 122;
 while (caracter >= 97)
 {
 putchar(caracter);
