@@ -6,13 +6,12 @@
 
 #include <stdio.h>
 /**
-* main -print The Last Digit
-*
-* return: 0
+ * main -print The Last Digit
+ *
+ * return: 0
 */
 
 int main(void)
-  
 {
 int caracter = 122;
 while (caracter >= 97)
