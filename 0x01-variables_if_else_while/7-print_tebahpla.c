@@ -13,7 +13,7 @@
 
 int main(void)
 {
-/*Declarar variables para z*/  
+/*Declarar variables para z*/
 int caracter = 122;
 while (caracter >= 97)
 {
