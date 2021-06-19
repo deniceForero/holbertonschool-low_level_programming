@@ -10,8 +10,8 @@
 */
 int main(void)
 {
-int caracter = 122
-putchar ("caracter");
+int caracter = 122;
+putchar(caracter);
 
 while (caracter >=97)
 {
