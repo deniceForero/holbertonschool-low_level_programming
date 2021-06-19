@@ -8,12 +8,12 @@
 /**
  * main -print The Last Digit
  *
- * return: 0
+ * Return: 0
 */
 
 int main(void)
-  
 {
+/*Declarar variables para z*/  
 int caracter = 122;
 while (caracter >= 97)
 {
