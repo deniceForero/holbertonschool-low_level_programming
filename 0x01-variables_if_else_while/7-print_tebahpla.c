@@ -11,13 +11,13 @@
 int main(void)
 {
 int caracter = 122
-putchar (caracter);
+putchar(caracter);
 
 while (caracter >=97)
 {
-putchar (caracter);
+putchar(caracter);
 caracter--;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
