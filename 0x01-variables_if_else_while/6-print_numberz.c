@@ -14,9 +14,8 @@
 int main(void)
 {
 /*declare variables for number*/
-int num = 9;
-int aux = 0;
-while (aux <= num)
+int num = 0;
+while (num <= 9)
 {
 putchar(num);
 aux++;
