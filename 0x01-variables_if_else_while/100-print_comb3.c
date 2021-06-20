@@ -13,9 +13,11 @@
 int main(void)
 {
 /*Declarar variables para num1 y num2*/
-for (int num1 = 0; num1 < 10; num1++)
+int num1
+for (num1 = 0; num1 < 10; num1++)
 {
-for (int num2 = num1; num2 < 10; num2++)
+int num2  
+for (num2 = num1; num2 < 10; num2++)
 {
 putchar((num1) + '0');
 putchar((num2) + '0');
