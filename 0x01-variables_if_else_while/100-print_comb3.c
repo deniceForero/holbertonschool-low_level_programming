@@ -12,19 +12,24 @@
 
 int main(void)
 {
-/*Declarar variables para num1 y num2*/
-int num1, num2;
-for (num1 = 0; num1 < 10; num1++)
+int num = 0;
+int div, mod, aux;
+while (num < 100)
 {
-for (num2 = num1; num2 < 10; num2++)
+div = num / 10;
+mod = num % 10;
+aux = mod * 10 + div;
+if (num != aux && num < aux)
 {
-putchar((num1) + '0');
-putchar((num2) + '0');
-if (num1 == 9 && num2 == 9 && num2 != num1)
-continue;
+putchar((num / 10) + '0');
+putchar((num % 10) + '0');
+if (num != 89)
+{
 putchar(',');
 putchar(' ');
 }
+}
+num++;
 }
 putchar('\n');
 return (0);
