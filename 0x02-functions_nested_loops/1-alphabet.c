@@ -12,9 +12,10 @@
 
 void print_alphabet(void)
 {
+/* Declarar valor inicial para a*/
 int letter = 97;
 while (letter >= 122)
 _putchar(letter);
-letter ++;
+letter++;
 _putchar('\n');
 }
