@@ -5,17 +5,17 @@
 #include "holberton.h"
 
 /**
- * main -is alpha
- * Return: 1
- * Return: 0
+ * _isalpha - is a letter, lowercase or uppercase
+ *
+ * Return: 1 is a letter, lowercase or uppercase, 0 otherwise
 */
 
 int _isalpha(int c)
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
 {
-return(1);
+return (1);
 else
-return(0);
+return (0);
 }
   
