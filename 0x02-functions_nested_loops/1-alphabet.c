@@ -12,7 +12,7 @@
 
 void print_alphabet(void)
 {
-/* Declarar valor inicial para a*/
+/*Declarar valor inicial para a*/
 int letter = 97;
 while (letter <= 122)
 {
