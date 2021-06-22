@@ -1,20 +1,22 @@
 /*
  *function alphabetx10
- *2_print_alphabetx10 0x02-functions_nested_loops
+ *3_print_lowercase 0x02-functions_nested_loops
 */
 #include "holberton.h"
 
 /**
- * _islower -print lowercase
+ * _islower - print lowercase
  *
- * print alpabeth in lowercase
+ * @c: charter checked.
+ * 
+ * Return: 1 is character is lowercase, 0 otherwise.
 */
 
 int _islower(int c)
 {
-if(c >= 'a' && c <= 'z')
-return(0);
-else
+if (c >= 'a' && c <= 'z')
 return(1);
+else
+return(0);
 }
 
