@@ -1,12 +1,12 @@
 /*
- *function print number to 98
- *0x02 -functions_nested_loops
+*function print number to 98
+*0x02 -functions_nested_loops
 */
 #include <stdio.h>
 
 /**
  * print_to_98 - prints all natural numbers from n to 98, followed by a new line.
- * @n: numero to 98
+ * @n= numero to 98
 */
 void print_to_98(int n)
 {
