@@ -1,6 +1,6 @@
 /*
  *function print_to_98.c
- *11_print_to_98.c
+ *0x02 -functions_nested_loops
 */
 #include <stdio.h>
 
