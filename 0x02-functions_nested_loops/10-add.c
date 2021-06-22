@@ -5,14 +5,16 @@
 #include "holberton.h"
 
 /**
- * main -add a+b
+ * add - add a+b
  *
- * Return: 0
+ * @num1: number a, @num2 b.
+ *
+ * Return: outcome of suma a + b.
 */
 
 int add(int num1, int num2)
 {
 int suma;
 suma = num1 + num2;
-return(suma);
+return (suma);
 }
