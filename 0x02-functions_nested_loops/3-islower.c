@@ -8,7 +8,7 @@
  * _islower - print lowercase
  *
  * @c: charter checked.
- * 
+ *
  * Return: 1 is character is lowercase, 0 otherwise.
 */
 
