@@ -9,7 +9,7 @@
  *
  * @num1: number a.
  *
- * @num2 b.
+ * @num2: b.
  *
  * Return: outcome of suma a + b.
 */
