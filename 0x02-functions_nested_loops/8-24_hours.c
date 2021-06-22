@@ -5,9 +5,9 @@
 #include "holberton.h"
 
 /**
- * main -hours and minutes
+ * jack_bauer -hours and minutes
  *
- * Return: 0
+ * 23:59
 */
 
 void jack_bauer(void)
