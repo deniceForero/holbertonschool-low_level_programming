@@ -1,5 +1,5 @@
 /*
- *function print_to_98.c
+ *function print number to 98
  *0x02 -functions_nested_loops
 */
 #include <stdio.h>
