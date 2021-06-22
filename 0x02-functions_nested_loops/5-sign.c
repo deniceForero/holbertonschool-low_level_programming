@@ -1,18 +1,18 @@
 /*
  *function alphabetx10
- *5_print_sign 0x02-functions_nested_loops
+ *5-sign.c 0x02-functions_nested_loops
 */
 #include "holberton.h"
 
 /**
- * print_sing - prints the sign of a number
+ * print_sign - prints the sign of a number
  *
  * @n: is charter checked.
  *
  * Return: 1 is greater, 0 is zero and -1 is less
 */
 
-int print_sing(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
