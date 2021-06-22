@@ -5,9 +5,9 @@
 #include "holberton.h"
 
 /**
- * print_ alphabet in lowercase
+ * print_alphabet - in lowercase
  *
- * 
+ * followed by a new line 
 */
 void print_alphabet(void)
 {
