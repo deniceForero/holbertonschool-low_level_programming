@@ -5,9 +5,9 @@
 #include "holberton.h"
 
 /**
- * main -print alphabetx10
+ * _islower -print lowercase
  *
- * Return: 0
+ * print alpabeth in lowercase
 */
 
 int _islower(int c)
