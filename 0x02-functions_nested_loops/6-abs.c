@@ -5,15 +5,17 @@
 #include "holberton.h"
 
 /**
- * main -print num absolute
+ * _abs -print num absolute
  *
- * Return: 0
+ * @num: number to be checked.
+ *
+ * Return: absolute value of an integer.
 */
 
 int _abs(int num)
 {
-if(num >= 0)
-return(num);
+if (num >= 0)
+return (num);
 else
-return(-num);
+return (-num);
 }
