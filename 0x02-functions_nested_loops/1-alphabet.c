@@ -7,7 +7,7 @@
 /**
  * print_alphabet - in lowercase
  *
- * followed by a new line 
+ * followed by a new line
 */
 void print_alphabet(void)
 {
