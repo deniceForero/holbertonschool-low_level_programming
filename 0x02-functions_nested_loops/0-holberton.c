@@ -1,13 +1,13 @@
 /*
- *Print _putchar
- *0-print_Holberton
+*Print _putchar
+*0-print_Holberton
 */
 #include "holberton.h"
 
 /**
- * main -print Holberton
- *
- * Return: 0
+* main -print Holberton
+*
+* Return: 0
 */
 
 int main(void)
