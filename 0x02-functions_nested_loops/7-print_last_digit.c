@@ -5,14 +5,16 @@
 #include "holberton.h"
 
 /**
- * main -print last digit
+ * print_last_digit -print last digit
  *
- * Return: 0
+ * @n: charter to be checked.
+ *
+ * Return: last digit of a number
 */
 
-int _int print_last_digit(int n)
+int print_last_digit(int n)
 {
 int last_digit = n % 10;
-putchar(last_digit + '0');
-return(0);
+putchar (last_digit + '0');
+return (0);
 }
