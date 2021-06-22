@@ -5,9 +5,11 @@
 #include "holberton.h"
 
 /**
- * main -print sings
+ * _print_sing - prints the sign of a number
  *
- * Return: 0
+ * @n: is charter checked.
+ *
+ * Return: 1 is greater, 0 is zero and -1 is less
 */
 
 int _print_sing(int n)
@@ -15,15 +17,15 @@ int _print_sing(int n)
 if (n > 0)
 {
 _putchar('+');
-return(1);
+return (1);
 }
 else if (n < 0)
 {
 _putchar('-');
-return(-1);
+return (-1);
 }
 else {
 _putchar('0');
-return(0);
+return (0);
 }
 }
