@@ -18,24 +18,24 @@ for (x = 0; x <= 9; x++ )
 z = y * x ;
 if (x != 0)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 if (z >= 10)
 {
-putchar((z / 10) + '0');
-putchar((z % 10) + '0');
+_putchar((z / 10) + '0');
+_putchar((z % 10) + '0');
 }
 else if
 ((z < 10) && (x != 0))
 {
-putchar(' ');
-putchar((z % 10) + '0');
+_putchar(' ');
+_putchar((z % 10) + '0');
 }
 else
-putchar((z % 10) + '0');
+_putchar((z % 10) + '0');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
  
