@@ -6,7 +6,6 @@
 
 /**
  * times_table - print  all table 9.
- *
 */
 
 void times_table(void)
