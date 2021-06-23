@@ -18,6 +18,8 @@ printf("%d, ", n--);
 else
 {
 while (n <= 98)
+{
 printf("%d, ", n++);
+}
 }
 }
