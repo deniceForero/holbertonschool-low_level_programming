@@ -6,9 +6,9 @@
 
 /**
  * reset_to_98 - *parameter and updates the value it points to to 98.
- * 
+ *
  * Return: value of 98
- * 
+ *
  * @n: value for pointer
  */
 
