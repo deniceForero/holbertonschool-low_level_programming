@@ -6,8 +6,8 @@
 
 /**
  * swap_int - Write a function that swaps the values of two integers
- * @*a: value for number one
- * @*b: value for number two
+ * @a: value for number one
+ * @b: value for number two
 */
 
 void swap_int(int *a, int *b)
